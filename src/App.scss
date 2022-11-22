@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+
+   > * {
+    margin-right: 4px;
+  }
+
+  button {
+    min-width: 50px;
+    min-height: 30px;
+    color: white;
+    background-color: #82b2ff;
+    font-weight: bold;
+  }
+}
